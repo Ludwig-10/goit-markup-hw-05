@@ -139,7 +139,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 font-style: normal;
 color: var(--subtitle-collor);
 padding: 32px 0;
-transition-property: color;
+transition-property: color, fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -468,6 +468,9 @@ color: var(--auxiliary-color);
      transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-link:not(:last-child) {
+    margin-right: 10px;
 }
 .footer-social-link:hover {
     background-color: var(--accent-color);
